@@ -94,7 +94,7 @@ export default function VocabularyCard({
           ) : null}
 
           {/* Action buttons */}
-          <div className="flex justify-between sm:justify-end gap-3 bg-white w-full sm:w-fit sm:self-end rounded-tl-lg max-sm:rounded-b-lg">
+          <div className="flex justify-between sm:justify-end gap-3 bg-white w-full sm:w-fit sm:self-end rounded-tl-lg rounded-br-lg max-sm:rounded-b-lg">
             <div
               className={`relative p-2 sm:p-4 rounded-tl-lg border-t-4 ${
                 activeAction == "languages"
